@@ -1,0 +1,1 @@
+####DOES NOTHING BUT WANDER -- real boring##STATE=DEFAULTSCRIPT=WanderStateHandler#### #################### #####

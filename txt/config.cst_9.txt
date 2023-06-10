@@ -1,0 +1,118 @@
+ROOT_MEM_NAME	TYPE	PRIORITY	CHANNELS	DURATION	VOLUME	LOOP	MULTIPLE	SKIP_IMPORT
+symbol	symbol	num	list	num	num	num	num	num
+arbo_boges_sounds_boges_die	arbo_boges	5	"[3, 4, 5, 6]"	971	255	0	0	0
+arbo_boges_sounds_boges_screech	arbo_boges	3	"[5, 4, 3]"	6676	255	1	0	0
+arbo_boges_sounds_boges_screech_attack	arbo_boges	5	"[3, 4, 5, 6]"	978	255	0	0	0
+arbo_drakmeer_sounds_bkg_drakmeer	arbo_drakmeer	1	[1]	30166	255	1	0	0
+arbo_drakmeer_sounds_chutes_on	arbo_drakmeer	5	"[3, 4, 5, 6]"	872	255	0	0	0
+arbo_drakmeer_sounds_dogbark	arbo_drakmeer	5	"[3, 4, 5, 6]"	326	255	0	0	0
+arbo_jungle_sounds_bkg_jungle	arbo_jungle	1	[1]	34101	255	1	0	0
+arbo_miningcamp_sounds_end_race	arbo_miningcamp	5	"[1, 2, 3, 4, 5, 6]"	760	255	0	0	0
+arbo_miningcamp_sounds_qoro_bubbling	arbo_miningcamp	5	"[1, 2, 3, 4, 5, 6]"	9913	255	1	0	0
+arbo_miningcamp_sounds_qoro_refill	arbo_miningcamp	5	"[1, 2, 3, 4, 5, 6]"	664	255	0	0	0
+arbo_miningcamp_sounds_start_race	arbo_miningcamp	5	"[1, 2, 3, 4, 5, 6]"	615	255	0	0	0
+arbo_quest_assignment_sounds_bkg_quest_assignment	arbo_quest_assignment	1	[1]	22836	255	1	0	0
+arbo_quest_assignment_sounds_portal_entrysucceed	arbo_quest_assignment	5	"[3, 4, 5, 6]"	1392	255	0	0	0
+arbo_quest_assignment_sounds_portal_whileon	arbo_quest_assignment	3	[6]	6116	255	1	0	0
+arbo_slavecamp_sounds_bkg_slavecamp	arbo_slavecamp	1	[1]	17704	255	1	0	0
+arbo_slavecamp_sounds_taskmaster_fires	arbo_slavecamp	4	"[3, 4, 5, 6]"	100	255	0	0	0
+arbo_slavecamp_sounds_taskmaster_hit	arbo_slavecamp	4	"[3, 4, 5, 6]"	264	255	0	0	0
+arbo_slavecamp_sounds_taskmaster_theme	arbo_slavecamp	2	[4]	6501	255	1	0	0
+arbo_village_sounds_bkg_maze	arbo_village	1	[1]	10687	255	1	0	0
+common_sounds_bkg_arena	common	1	[1]	18269	255	1	0	0
+common_sounds_bkg_cave	common	1	[1]	15029	255	1	0	0
+common_sounds_cave_ricochet	common	5	"[3, 4, 5, 6]"	869	255	0	0	0
+common_sounds_chase_loop	common	3	[3]	7259	255	1	0	0
+common_sounds_containment	common	5	"[1, 2, 3, 4, 5, 6]"	297	255	0	0	0
+common_sounds_drag_loop	common	2	[2]	289	255	1	0	0
+common_sounds_drag_loop2	common	5	"[1, 2, 3, 4, 5, 6]"	289	255	0	0	0
+common_sounds_energywall_tone	common	5	"[3, 4, 5, 6]"	159	255	0	1	0
+common_sounds_energywall_turnoff	common	5	"[3, 4, 5, 6]"	1124	255	0	1	0
+common_sounds_energywall_whileon	common	4	[6]	10369	255	1	0	0
+common_sounds_fan_1	common	5	"[3, 4, 5, 6]"	5015	255	1	0	0
+common_sounds_help_bkg	common	5	"[3, 4, 5, 6]"	6837	255	1	0	0
+common_sounds_item_pickup	common	3	"[3, 4, 5]"	882	255	0	0	0
+common_sounds_item_pickup_inventory	common	3	"[3, 4, 5]"	506	255	0	0	0
+common_sounds_item_pickup_noninventory	common	3	"[3, 4, 5]"	114	255	0	0	0
+common_sounds_player_collision	common	1	"[3, 4, 5]"	211	255	0	0	0
+common_sounds_player_dies	common	1	"[3, 4, 5]"	1373	255	0	0	0
+common_sounds_player_falltodeath	common	1	"[3, 4, 5]"	1192	255	0	0	0
+common_sounds_player_ftstps_ext_fast	common	2	[2]	461	255	1	0	0
+common_sounds_player_ftstps_ext_slow	common	2	[2]	776	255	1	0	0
+common_sounds_player_ftstps_int_fast	common	2	[2]	469	255	1	0	0
+common_sounds_player_ftstps_int_slow	common	2	[2]	771	255	1	0	0
+common_sounds_player_goalcompleted	common	4	"[3, 4, 5, 6]"	1596	255	0	1	0
+common_sounds_player_grunt_collision1	common	2	[2]	211	255	0	0	0
+common_sounds_player_grunt_collision2	common	2	[2]	141	255	0	0	0
+common_sounds_player_grunt_effort	common	1	[2]	258	255	0	0	0
+common_sounds_player_grunt_struck	common	1	[2]	223	255	0	0	0
+common_sounds_player_hit	common	1	[2]	264	255	0	0	0
+common_sounds_player_landing	common	1	[2]	189	255	0	0	0
+common_sounds_powerup_temp	common	4	"[3, 4, 5, 6]"	3000	255	0	0	0
+common_sounds_savespot	common	4	"[3, 4, 5, 6]"	1873	255	0	0	0
+common_sounds_steamvent	common	6	"[3, 4, 5, 6]"	999	255	0	1	0
+common_sounds_ui_button1_down	common	5	"[3, 4, 5, 6]"	106	255	0	0	0
+common_sounds_ui_button1_over	common	5	"[3, 4, 5, 6]"	187	255	0	0	0
+common_sounds_ui_button1_up	common	5	"[3, 4, 5, 6]"	219	255	0	0	0
+common_sounds_ui_window_down	common	5	"[3, 4, 5, 6]"	434	255	0	0	0
+common_sounds_ui_window_up	common	5	"[3, 4, 5, 6]"	428	255	0	0	0
+common_dv_sounds_repulsion	common_dv	5	"[1, 2, 3, 4, 5, 6]"	860	255	0	0	0
+common_es_sounds_footsteps_snow_fast	common_es	5	"[5, 6, 7, 8]"	462	255	0	0	0
+common_es_sounds_footsteps_snow_slow	common_es	5	"[5, 6, 7, 8]"	700	255	0	0	0
+common_es_sounds_make_iceorb	common_es	5	"[5, 6, 7, 8]"	50	255	0	0	0
+common_es_sounds_make_snowball	common_es	5	"[5, 6, 7, 8]"	50	255	0	0	0
+common_es_sounds_powered_ice_orb_throw	common_es	5	"[5, 6, 7, 8]"	50	255	0	0	0
+common_kek_sounds_angry_bot_mix	common_kek	5	"[5, 6, 7, 8]"	6122	255	1	0	0
+common_kek_sounds_bkg_botyards	common_kek	2	"[5, 6, 7, 8]"	8000	255	1	0	0
+common_kek_sounds_sewer_bots	common_kek	5	"[5, 6, 7, 8]"	12202	255	1	0	0
+common3_sounds_arena	common	5	"[5, 6, 7, 8]"	3580	150	1	0	0
+common3_sounds_boges_die	common	5	"[5, 6, 7, 8]"	971	255	0	0	0
+common3_sounds_boges_screech	common	5	"[5, 6, 7, 8]"	6676	255	0	0	0
+common3_sounds_boges_screech_attack	common	5	"[5, 6, 7, 8]"	978	255	0	0	0
+common3_sounds_congratulatory_ding1	common	5	"[5, 6, 7, 8]"	627	255	0	0	0
+common3_sounds_pre_action1_120	common	5	"[5, 6, 7, 8]"	8000	255	1	0	0
+common3_sounds_pre_action2_120	common	5	"[5, 6, 7, 8]"	8000	255	1	0	0
+common3_sounds_pre_action3_120	common	5	"[5, 6, 7, 8]"	8000	255	1	0	0
+dv_downtown_sounds_enemy_music	dv_downtown	4	[3]	13721	255	1	0	0
+dv_downtown_sounds_stairwell_portals	dv_downtown	5	"[3, 4, 5, 6]"	1099	255	0	0	0
+dv_entrance_sounds_windloop_high	dv_entrance	2	[1]	13416	255	1	0	0
+dv_institute_sounds_beaker_smash	dv_institute	5	"[3, 4, 5, 6]"	599	255	0	0	0
+dv_institute_sounds_exercise_bike	dv_institute	5	"[3, 4, 5, 6]"	8521	255	1	0	0
+dv_institute_sounds_institute_alarm	dv_institute	4	"[4, 5, 6]"	1916	255	1	0	0
+dv_institute_sounds_institute_bgloop	dv_institute	2	[1]	8001	255	1	0	0
+dv_macro_sounds_cycle_race	dv_macro	2	[2]	495	255	1	0	0
+dv_macro_sounds_hover_crash	dv_macro	5	"[3, 4, 5, 6]"	1201	255	0	0	0
+dv_macro_sounds_percussive_tension_loop	dv_macro	2	[1]	10843	255	1	0	0
+dv_macro_sounds_windloop	dv_macro	4	[1]	13418	255	1	0	0
+dv_mok_sounds_background	dv_mok	2	[1]	16818	255	1	0	0
+dv_mok_sounds_background_progress	dv_mok	2	[3]	13717	255	1	0	0
+dv_mok_sounds_mok_tileflip_2a	dv_mok	5	"[4, 5, 6]"	896	255	0	1	0
+dv_mok_sounds_mok_tileflip_2b	dv_mok	5	"[4, 5, 6]"	963	255	0	1	0
+dv_mok_sounds_mok_tileflip_2c	dv_mok	5	"[4, 5, 6]"	1183	255	0	1	0
+dv_sewer_sounds_angry_bot_mix	dv_sewer	3	[5]	6122	255	1	0	0
+dv_sewer_sounds_sewer_bots	dv_sewer	3	[5]	12202	255	1	0	0
+dv_sewer_sounds_sewer_door	dv_sewer	5	"[4, 5, 6]"	809	255	0	1	0
+dv_sewer_sounds_sewer_dripping_1	dv_sewer	5	"[4, 5, 6]"	5016	255	1	0	0
+dv_sewer_sounds_sewer_dripping_2	dv_sewer	5	"[4, 5, 6]"	8040	255	1	0	0
+dv_sewer_sounds_sewer_dripping_long_loop	dv_sewer	2	[1]	22450	255	1	0	0
+es_bonglandoi_sounds_village1_120	es_bonglandoi	5	"[5, 6, 7, 8]"	8000	255	1	0	0
+es_mounds_sounds_handscan	es_mounds	5	"[5, 6, 7, 8]"	50	255	0	0	0
+es_mounds_sounds_icemelt	es_mounds	5	"[5, 6, 7, 8]"	50	255	0	0	0
+es_narkeenin_sounds_narkeenin1_120	es_narkeenin	5	"[5, 6, 7, 8]"	8000	255	1	0	0
+es_narkeenin_sounds_narkeenin2_120	es_narkeenin	5	"[5, 6, 7, 8]"	8000	255	1	0	0
+es_oneli_gorge_sounds_oneli1_160	es_oneli_gorge	5	"[5, 6, 7, 8]"	6000	255	1	0	0
+es_oneli_gorge_sounds_oneli2_160	es_oneli_gorge	5	"[5, 6, 7, 8]"	6000	255	1	0	0
+es_qarsikti_sounds_qarsikti1_160	es_qarsikti	5	"[5, 6, 7, 8]"	6000	255	1	0	0
+es_qarsikti_sounds_qarsikti2_160	es_qarsikti	5	"[5, 6, 7, 8]"	6000	255	1	0	0
+es_qarsikti_sounds_snowbeast1	es_qarsikti	5	"[5, 6, 7, 8]"	1715	255	0	0	0
+es_qarsikti_sounds_snowbeast2	es_qarsikti	5	"[5, 6, 7, 8]"	1103	255	0	0	0
+es_qarsikti_sounds_snowbeast3	es_qarsikti	5	"[5, 6, 7, 8]"	1169	255	0	0	0
+es_qarsikti_sounds_snowbeast4	es_qarsikti	5	"[5, 6, 7, 8]"	1159	255	0	0	0
+kek_blockA_sounds_bkg_cellblock_a	kek_blocka	2	"[5, 6, 7, 8]"	18285	255	1	0	0
+kek_blockB_sounds_bkg_cellblock_b	kek_blockb	2	"[5, 6, 7, 8]"	17454	255	1	0	0
+kek_blockC_sounds_bkg_cellblock_c	kek_blockc	2	"[5, 6, 7, 8]"	8000	255	1	0	0
+kek_blockD_sounds_bkg_cellblock_d	kek_blockd	2	"[5, 6, 7, 8]"	16000	255	1	0	0
+kek_entrance_sounds_bkg_intro	kek_entrance	2	"[5, 6, 7, 8]"	9142	255	1	0	0
+kek_final_sounds_bkg_gorm_hq	kek_final	2	"[5, 6, 7, 8]"	9600	255	1	0	0
+kek_final_sounds_lightmissle_fires	kek_final	5	"[5, 6, 7, 8]"	100	255	0	0	0
+kek_final_sounds_lightmissle_rebound	kek_final	5	"[5, 6, 7, 8]"	264	255	0	0	0

@@ -1,0 +1,1 @@
+#######WATCHPLAYER_AI: uses aim to always look at the playerSTATE=DEFAULTSCRIPT=WatchObjectHandlerAIM=LOOKATDEFAULTS=[#RANGE:85]###########################STATE=LOOKATSCRIPT=AimStateHandlerSTART_QUORO_RACE=DEFAULTAIM_DONE=DEFAULTAIM_TIMED_OUT=DEFAULT########################

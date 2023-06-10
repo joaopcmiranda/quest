@@ -1,0 +1,12 @@
+itemID	resourceID	Name	long_descr	short_Descr	hint	strength	agility	endurance	speed	intelligence	charm	bonus_time	equip
+symbol	symbol	string	string	string	string	list	list	list	list	list	list	num	boolean
+dv_questitem	common_gui_charInventory_item_quest	Your Quest on Dreejal Vin	"You must find the portal to Elta Siktar, hidden in the Sewers of Dreejal Vin.|"		Get to the sewers.|								0
+upgradenote	common2_charInventory_item_note	Prepare to Upgrade when you reach Level 5!	Get your character to level 5 and return to the Monument of Knowledge to receive your armor upgrade.|		Are you experienced?|								0
+dv_botrepulsor	common2_charInventory_item_repulsor	Electro Repulsor	Equips when bots are around. Use the X key to send a magnetic pulse. 										1
+dv_antidote	common2_charInventory_item_antidote	Zoron Antidote	This antidote cures anyone frozen by the Zorons.|		This is sweet stuff.								
+dv_idpass	common2_charInventory_item_passkey	Identity Pass 	This Identity Pass gets you into restricted areas like the Institute of Technology.|		Identity Pass								
+dv_accesscard5	common2_charInventory_item_codekey	Access to Sector 5	This key will open the door to Sector 5 of the Dreejal Vin Sewers.|		Access Card								
+dv_hoverupgrade1	common2_charInventory_item_upgrade1	Hoverbike Upgrade 1	This Upgrade increases the power of your Shield.|		Upgrade								
+dv_hoverupgrade2	common2_charInventory_item_upgrade2	Hoverbike Upgrade 2	This Upgrade increases the power of your Shield even more!|		Upgrade								
+dv_hoverupgrade3	common2_charInventory_item_upgrade3	Hoverbike Upgrade 3	"This Upgrade gives a boost, so your Hover Bike has more and longer lasting power!|"		Upgrade								
+dv_evidence	common2_charInventory_item_wanted_siktari	Wanted Poster	This Wanted Poster proves you are NOT a friend of Gorm!|										

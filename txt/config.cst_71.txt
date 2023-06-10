@@ -1,0 +1,1 @@
+####WanderingThingHandler: DEFAULT PATROL##STATE=DEFAULTSCRIPT=WanderingThingHandlerCATCHALL=1DEFAULTS=[#VECTOR:[-4.0,0,0]]#################################

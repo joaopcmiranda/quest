@@ -1,0 +1,89 @@
+taskID	zoneID	questID	type	name	Long_Descr	short_Descr	disabled_Descr	Encounter_default	Encounter_impossible	Encounter_done	required	repeatable	auto_open	success_msg	failure_msg	success_id	failure_id	strength	agility	endurance	speed	intelligence	charm	time
+symbol	symbol	symbol	symbol	string	string	string	string	stringlist	stringlist	stringlist	list	boolean	boolean	stringlist	stringlist	list	list	list	list	list	list	list	list	num
+kek_exitarbo	kek_entrance	unknown	task	Portal 	Pierre was able to repair the portal to Arbo.	Portal to Arbo	A broken portal		Gorm has broken the portal so that prisoners can't get back to Arbo. You'll need help to repair it.		#kek_repair_portal	0	1	The portal has been repaired! Do you want to travel through it back to Arbo? 										
+kek_repair_portal	kek_entrance	kek_quest000	task	Fix the broken portal to Arbo	Pierre repaired the portal to Arbo that Gorm had broken.	Fixed Portal	Fix Portal					0	1	Ah! Gorm has broken the portal. I think I might be able to fix it. Let me see if I can remember how…										
+kek_exitint	kek_entrance	kek_quest000	task	Labyrinth To Interrogation	Labyrinth To Interrogation	Secret Passageway to Gorm's Headquarters	Passage to Gorm's Headquarters	You can use this exit to sneak back into Gorm's Headquarters and practice defeating his guards. 	You'll need to free Pierre so that he can guide you through the sewers and out of Kek. 		#kek_gorm_door	0	1	"Ok, watch your back in there. If the guards catch you, you'll be in deep trouble. "										
+kek_intro	kek_entrance	kek_quest000	task	get blueprint to Block A	get blueprint to Block A	Get blueprint to Block A	Get the map to Cellblock A			"Here is the blueprint to get you to block A.   Watch out for cameras, guards,and bots. Free resistance fighters to get to Pierre."		0	1	"Ok, here it is…don't forget if you are seen by a camera the guards will find you. Good luck!"		"[[#kek_blueprintA,1]]"								
+kek_exit_blocka	kek_entrance	kek_quest000	task	need map/hi security	Get through to A	Get through to Block A	Get through to Cellblock A	"OK, you have the map -- good luck.  The next Cellblock is more heavily guarded then this one, so move slowly, avoid the cameras, and make sure the guards don't spot you. "	Find a member of the Resistance - they'll have a plan to help you navigate your way through the sewers to Cellblock B.		"#kek_blueprintA,1"	0	1	"Good luck, the entrance to the sewer tunnels is over there. Watch out for cameras!"		"[[#experience,50]]"								
+kek_manhole	kek_blocka	kek_quest000	task	what are manholes for	What's a Manhole	Escape passage for prisoners. 	Escape passage for prisoners. 	This is a manhole -- prisoners could escape through it if you can get them out of their cells.				0	1	You need to contain a guard for this block and get his arms -- then you can free prisoners.		"[[#experience,50]]"								
+kek_blocka_non	kek_blocka	kek_quest000	task	free some prisoners	You freed # prisoners in block A	Free some prisoners in Cellblock A	Free some prisoners in Cellblock A	You glynched with one of the guards! Brilliant! Just press your hand against the lock and I'll be free. 	"I wish you could free me, but these cells can only be opened by a Cellblock A guard.||Maybe you could glynch with one of them?~There is a member of the Secret Society in this cellblock. He's a vinic. "	Excellent work! You've freed one of the many unfortunate souls who have been unfairly imprisoned by Gorm.||Hopefully you'll have time to free more of them while you're here. 	#kekguard_a_arms	1	1	"Thank you, traveller. I will find a way out of the prison through the sewers. I can't wait to get home to my family. "										
+kek_blocka_res	kek_blocka	kek_quest000	task	free a resistance guy	You freed a member of the Secret Society.	Free a member of the Secret Society	Free a member of the Secret Society	Cool - use that blueprint to get to Block B	"The only way to open this cell is to glynch with one of the guards in this cellblock.||If you can get me out, I can help you get to the next cellblock."		#kekguard_a_arms	1	1	"Thank you so much! I'll find a way out through the prison sewer system. I can't wait to get home and have a good meal.~Thank you, traveller. I will find a way out of the prison through the sewers. I can't wait to get home to my family. "		"[[#kek_blueprintB,1]]"								
+kek_blockb_non	kek_blockb	kek_quest000	task	free some prisoners	You freed # prisoners in block B	Free some prisoners in Cellblock B	Free some prisoners in Cellblock B	You glynched with one of the guards! Brilliant! Just press your hand against the lock and I'll be free. 	"I wish you could free me, but these cells can only be opened one of the Cellblock B guards.||Any chance you could glynch with one of them?~There's a member of the Secret Society in this cellblock. He's a Gnashref. "	Excellent work! You've freed one of the many unfortunate souls who have been unfairly imprisoned by Gorm.||Hopefully you'll have time to free more of them while you're here. 	#kekguard_b_arms	1	1	"Thank you so much! I'll find a way out through the prison sewer system. I can't wait to get home and have a good meal.~Thank you, traveller. I will find a way out of the prison through the sewers. I can't wait to get home to my family. "										
+kek_blockb_res	kek_blockb	kek_quest000	task	free a resistance guy	You Freed a resistance fighter guy.	Free a member of the Secret Society	Free a member of the Secret Society	Cool - use that blueprint to get to Block C	"The only way to open this cell is to glynch with one of the guards in this cellblock.||If you can get me out, I can help you get to the next cellblock."		#kekguard_b_arms	1	1	Thank you so much! I'll find a way out through the prison sewer system. I can't wait to get home and have a good meal. 		"[[#kek_blueprintC,1]]"								
+kek_blockc_non	kek_blockc	kek_quest000	task	free some prisoners	You freed # prisoners in block C	Free some prisoners in Cellblock C	Free some prisoners in Cellblock C	You glynched with one of the guards! Brilliant! Just press your hand against the lock and I'll be free. 	"I wish you could free me, but these cells can only be opened by a Cellblock C guard.||Maybe you could glynch with one of them?~There is a member of the Secret Society in this cellblock. He's a Galidorian. "	Excellent work! You've freed one of the many unfortunate souls who have been unfairly imprisoned by Gorm.||Hopefully you'll have time to free more of them while you're here. 	#kekguard_c_arms	1	1	Thank you so much! I'll find a way out through the prison sewer system. I can't wait to get home and have a good meal. 										
+kek_blockc_res	kek_blockc	kek_quest000	task	free a resistance guy	You freed a member of the Secret Society.	Free a member of the Secret Society	Free a member of the Secret Society	Cool - use that blueprint to get to Block D	"The only way to open this cell is to glynch with one of the guards in this cellblock.||If you can get me out, I can help you get to the next cellblock."		#kekguard_c_arms	1	1	Thank you so much! I'll find a way out through the prison sewer system. I can't wait to get home and have a good meal.~Free at last! I've been dreaming about this moment for years. I can't thank you enough. I'm going to find a way out of this prison. 		"[[#kek_blueprintD,1]]"								
+kek_blockd_non	kek_blockd	kek_quest000	task	free some prisoners	You freed # prisoners in block D	Free some prisoners in Cellblock D	Free some prisoners in Cellblock D	You glynched with one of the guards! Brilliant! Just press your hand against the lock and I'll be free. 	"I wish you could free me, but these cells can only be opened by a Cellblock D guard.||Maybe you could glynch with one of them?~There is a member of the Secret Society in this cellblock. He's a Wexer. "	Excellent work! You've freed one of the many unfortunate souls who have been unfairly imprisoned by Gorm.||Hopefully you'll have time to free more of them while you're here. 	#kekguard_d_arms	1	1	Thank you so much! I'll find a way out through the prison sewer system. I can't wait to get home and have a good meal.~										
+kek_blockd_res	kek_blockd	kek_quest000	task	free a resistance guy	You freed a member of the Secret Society.	Free a member of the Secret Society	Free a member of the Secret Society	"Cool - use that blueprint to get to the Gorm's Headquarters.The leader of the Secret Society is being held prisoner there. If you can free him, we'll be one step closer to defeating Gorm. "	"The only way to open this cell is to glynch with one of the guards in this cellblock.||If you can get me out, I can help you get to the next cellblock."		#kekguard_d_arms	1	1	Thank you so much! I'll find a way out through the prison sewer system. I can't wait to get home and have a good meal. 		"[[#kek_blueprintint,1]]"								
+kek_botyard1_ent	kek_botyard1	kek_quest000	task	what to do in bot yard	You need to get across the bot yard without getting caught.	Crossed BotYard #1	Crossed BotYard #1	"Jump from crate to crate and avoid the bots at all costs. If they catch you, you'll be knocked out. Use your speed and agility to out-maneuver them."				0	1	"Don't let the sewer bots catch you, or they'll knock you out and call the guards. They can't jump, so if you get up on top of those boxes, you'll be safe. "		"[[#dv_questitem,1,#experience,100],[#experience,0]]"								
+kek_botyard2_ent	kek_botyard2	kek_quest000	task	what to do in bot yard	You need to get across the bot yard without getting caught.	Crossed BotYard #2	Crossed BotYard #2	"Jump from crate to crate and avoid the bots at all costs. If they catch you, you'll be knocked out. Use your speed and agility to out-maneuver them."				0	1	"Don't let the sewer bots catch you, or they'll knock you out and call the guards. They can't jump, so if you get up on top of those boxes, you'll be safe. "		"[[#dv_idpass,1,#experience,100],[#experience,0]]"								
+kek_guard_caught	common	unknown	task	Caught by a Guard						You've been caught by a prison guard and have to start over.		1	1			"[[#upgradenote,1,#experience,100],[#experience,0]]"								
+kek_cam_control	common	unknown	task	Turn off the cameras				"You can turn off the cameras on this block from here -- walk up to the switch and press 'x' to flip the switch the cameras off (if they are on, that is)."				0	1	"Remember, if a guard comes in here he'll turn them back on."		"[[#intelligence,1]]"								
+kek_botcaught	common	unknown	task	Caught by a Bot						You've been caught by a prison bot and have to start over.		1	1			"[[#intelligence, 2,#experience,25]]"								
+kek_guard_got_prisoner	common	unknown	task	The guards caught an escapee						The guards caught one of the prisoners you freed -- you need to start over.		1	1											
+kek_bot_got_prisoner	common	unknown	task	The bots caught an escapee						The bots caught one of the prisoner's you freed -- you need to start over.		1	1											
+kek_cam_alert_plr	common	unknown	task	Security Alert!						You were spotted by the camera system -- and need to start over		1	1											
+kek_cam_alert_esc	common	unknown	task	Security Alert!						The cameras saw an escapee -- you need to start over.		1	1											
+kek_exit_blockb	kek_blocka	kek_quest000	task	Get from Block A to B	You got the blueprint from Block A to Block B.	Get from Block A to B	Get from Cellblock A to Cellblock B	Do you want to try to find your way through the sewers to Cellblock B?	You need to get the blueprint to the labyrinth from Cellblock A to Cellblock B.		"#kek_blueprintB,1"	0	1	"Ok, good luck in block B"		"[[#dv_evidence,1,#intelligence,1],[#experience,0]]"								
+kek_exit_blockc	kek_blockb	kek_quest000	task	Get from Block B to Yard 1	You got the blueprint from Block B to Yard 1.	Get from Block B to Yard 1	Get from Block B to Yard 1	So you found a plan for this part of the sewer system...do you want to enter the tunnels?	You need to get the blueprint to the labyrinth from Cellblock B to Cellblock C.		"#kek_blueprintC,1"	0	1	"Ok, good luck in block C"										
+kek_exit_blockd	kek_blockc	kek_quest000	task	Get from Block C to D	You got the blueprint from Block C to Block D.	Get from Block C to D	Get from Block C to D	"You have the blueprint, do you want to enter the tunnels and find your way to Cellblock D?"	You need to get the blueprint to the labyrinth from Cellblock C to Cellblock D.		"#kek_blueprintD,1"	0	1	"Ok, good luck in block D"										
+kek_blocktoint	kek_blockd	kek_quest000	task	Get from Block D to Yard 2	You got the blueprint from Block D to Yard 2.	Get from Block D to Yard 2	Get from Block D to 2	"You have the blueprint, do you want to try to find your way to Gorm's Headquarters?"	You need the right blueprint to get to Gorm's Headquarters.		"#kek_blueprintint,1"	0	1	"Ok, good luck in interrogation"		"[[#experience,5]]"								
+kek_final_intro	kek_final 	kek_quest000	task	Warning From Pierre	Pierre tells you how to get through it	Pierre speaks	Free Pierre	"Excellent, you got the key from Gorm's Headquarters. I think I know a way out of this place. Follow me and I'll try to get us out of here, Ok? "	Thank goodness you're here. Gorm and Tager have laid a trap.  You will need to defeat Gorm's Elite guards and then contain Tager and glynch for his arms in order to get into Gorm's office. Once you get into Gorm's office you'll find the key to my cell.||Use that silver scrap of metal on the ground in the room across from here as a shield to reflect the uber-guard's light blasts back at them!		"#kek_pierre_key,1"	1	1	"Excellent, lets get the heck out of here -- follow me!"		"[[#experience,50]]"								
+kek_final_battle	kek_final	kek_quest000	task	Get Tager's Arms	You defeated Gorm's Elite Guard and got Tager's arms. Excellent!	You Got Tager's Arms	Get Tager's Arms		This is never impossible.	"Ha! Gorm here foolish rebel -- here to tell you your end has come! Guards, defeat this rebel scum with your light beams. Tager, make sure the guards take care of this intruder once and for all. And don't let that fool get your arms or it's all over!"	#KekFinalSubGame	0	1	Rats! You got through Tager and have access to my secret Executive Office -- I'm outa here.  Next time you wont be so lucky.Ha ha ha ha ha 	Do we need a failure message here?									
+kek_gorm_door	kek_final	kek_quest000	task	Enter Gorm's Headquarters.	You got into Gorm's Headquarters where the key to the Leader's cell is kept.	Got Into Gorm's Headquarters.	Enter Gorm's Headquarters.	"You have Tager's arms and can open the door to gorms office, want to?"	You need to get Tager's arms to open this door.		#tager_arms	0	1											
+kek_battle_repeat	kek_final	unknown	task	Look Out for the Overseers	Get that Rebel	Get that Rebel	Get That Rebel		This is never impossible	That's him! Get that Rebel  -- he's the one whose been freeing all the prisoners!  	#KekFinalSubGame	1	1											
+kek_leader_escaped	kek_final	unknown	task	No Text Needed	No Text Needed	No Text Needed	No Text Needed	No Text Needed	No Text Needed	No Text Needed		0	1	No Text Needed										
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+																								
+
+																								
+																								
+															
+															
+															
+															
+															
+															
+															
+															
+															

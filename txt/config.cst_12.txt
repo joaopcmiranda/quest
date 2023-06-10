@@ -1,0 +1,3 @@
+ROOT_MEM_NAME	NUM_FRAMES	PARTS	BOX_SIZE	HEIGHT
+symbol	num	symbolList	list	num
+eraser	1	[]	"40,40"	1

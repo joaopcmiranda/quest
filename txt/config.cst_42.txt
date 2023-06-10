@@ -1,0 +1,8 @@
+ID	Name	Long_Descr	short_Descr	title	reminder	strength	agility	endurance	speed	intelligence	charm
+symbol	string	string	string	string	string	wtdRnd	wtdRnd	wtdRnd	wtdRnd	wtdRnd	wtdRnd
+chalEsPower	Break the Ice Blocks	Elta Siktar power challenge description	See who can break the most ice blocks!	Elta Siktar power title	Remember:  you'll need POWER for this challenge	"1,20"					
+chalEsCharm	Call the Jaariak	Elta Siktar charm challenge description	See who can get the Jaariak to come to them!	Elta Siktar charm title	Remember:  you'll need CHARM for this challenge						"1,20"
+											
+											
+											
+											

@@ -1,0 +1,8 @@
+itemID	resourceID	Name	long_descr	short_Descr	hint	strength	agility	endurance	speed	intelligence	charm	bonus_time	equip
+symbol	symbol	string	string	string	string	list	list	list	list	list	list	num	boolean
+qorium	common_gui_charInventory_item_quorium	Qorium [#]	"Qorium is an important source of energy in the Outer Dimension.||It's also valuable, and therefore good for trading.|"		Valuable fuel!								0
+goggles	common_gui_charInventory_item_goggles	Multi-Lenses [#]	Multi-Lenses are the ultimate night vision googles - they can make the darkest cavern seem as bright as day… very handy in a place like Arbo.|		See in the dark|								0
+lasercutter	common_gui_charInventory_item_lasercutter	Laser Cutter [#]	"The Laser Cutter will slice through anything, and it's small enough to fit in your pocket.|"		Great for freeing prisoners!|								0
+elevation	common_gui_charInventory_item_grapple	Elevation Booster [#]	The Elevation Booster can be a life saver…you'll need it in the Aquarts' caverns.|		Cool climbing tool!|								0
+mapfrag	common_gui_charInventory_item_map	Map to Dreejal Vin	"This Map will get you to Dreejal Vin, once the portal opens up (and it will soon - keep watching!)|"		Your ticket to Dreejal Vin!								0
+questitem	common_gui_charInventory_item_quest	Arbo Quest	"All the maps in the Outer Dimension have been destroyed by Gorm. Without them, no one can travel between the Realms.||But some maps may have survived, and we've heard there is one here on Arbo.||"		"Your mission: find the Map! It will get you to Dreejal Vin, the next stop on your Quest."								0

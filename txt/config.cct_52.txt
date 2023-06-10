@@ -1,0 +1,39 @@
+npcID	name	species	arms	legs	head	level	chWon	chLost	strength	agility	endurance	speed	intelligence	charm
+symbol	string	symbolList	symbolList	symbolList	symbolList	list	list	list	string	string	string	string	string	string
+kek_guard_a	Guard A Block	#kekguard_A	#kekguard_A	#kekguard_A	#none	5	1	1	+0	+0	+0	+0	+0	+0
+kek_guard_b	Guard B Block	#kekguard_B	#kekguard_B	#kekguard_B	#none	5	1	1	+0	+0	+0	+0	+0	+0
+kek_guard_c	Guard C Block	#kekguard_C	#kekguard_C	#kekguard_C	#none	5	1	1	+0	+0	+0	+0	+0	+0
+kek_guard_d	Guard D Block	#kekguard_D	#kekguard_D	#kekguard_D	#none	5	1	1	+0	+0	+0	+0	+0	+0
+kek_gorm	Gorm 	#gorm	#gorm	#gorm	#none	5	1	1	+0	+0	+0	+0	+0	+0
+kek_tager	Tager	#tager	#tager	#tager	#none	5	1	1	+0	+0	+0	+0	+0	+0
+kek_pierre	Pierre	#wexer	#wexer	#wexer	#none	5	1	1	+0	+0	+0	+0	+0	+0
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														
+														

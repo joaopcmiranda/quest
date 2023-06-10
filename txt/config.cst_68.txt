@@ -1,0 +1,1 @@
+#######BogeRewarderAI: set up to disappear when task closesSTATE=DEFAULTSCRIPT=WatchObjectHandlerAIM=LOOKATTaskFinished=DISAPPEAR###########################STATE=LOOKATSCRIPT=AimStateHandlerTaskFinished=DISAPPEARAIM_DONE=DEFAULTAIM_TIMED_OUT=DEFAULT########################STATE=DISAPPEARSCRIPT=disappearStateHandlerDEFAULTS=[#DIE:1]######################## #####

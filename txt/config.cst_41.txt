@@ -1,0 +1,15 @@
+npcID	name	species	arms	legs	head	level	chWon	chLost	strength	agility	endurance	speed	intelligence	charm
+symbol	string	symbolList	symbolList	symbolList	symbolList	list	list	list	string	string	string	string	string	string
+npc_eltaan	An Eltaan Native	#eseltaan	#none	#none	"#eseltaan1, #eseltaan2, #eseltaan3"	2	1	1	+0	+0	+0	+0	+0	+0
+npc_eltaan1	An Eltaan Native	#eseltaan	#none	#none	#eseltaan1	2	1	1	+0	+0	+0	+0	+0	+0
+npc_eltaan2	An Eltaan Native	#eseltaan	#none	#none	#eseltaan2	2	1	1	+0	+0	+0	+0	+0	+0
+npc_eltaan3	An Eltaan Native	#eseltaan	#none	#none	#eseltaan3	2	1	1	+0	+0	+0	+0	+0	+0
+npc_tyreena	Tyreena	#estyreena	#none	#none	#none	9	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_gropert	Gropert	#esgropert	#none	#none	#none	6	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_poonani	Poonani	#eseltaan	#none	#none	#espoonani1	6	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_hunter3	Green Eye	#eshunter_three	#eshunter_three	#eshunter_three	#none	5	33	54	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_siktari2	Super Siktari Stranger	#siktari_two	#siktari	#siktari	#none	6	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_amphibib2	Super Amphibib Stranger	#amphibib_two	#amphibib	#amphibib	#none	6	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_vinic2	Super Vinic Stranger	#vinic_two	#vinic	#vinic	#none	6	33	54	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_urwhal2	Super Urwhal Stranger	#urwhal_two	#urwhal	#urwhal	#none	8	63	78	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_wex2	Super Wexer Stranger	#wexer_two	#wexer	#wexer	#none	8	1	1	+0	+0	+0	+0	+0	+0

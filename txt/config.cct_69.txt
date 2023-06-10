@@ -1,0 +1,1 @@
+####FOLLOW_TEST_AI: should just follow the player##STATE=DEFAULTSCRIPT=GotoStateHandlerDEFAULTS=[#OBJECT:#PLAYER,#DIST: 25,#SPEED:0.25]####FOLLOW_TEST_AI##

@@ -1,0 +1,7 @@
+noteID	zoneID	questID	visible	Name	Long_Descr	short_Descr
+symbol	symbol	symbol	num	string	string	string
+note000	arbo_miningcamp	arbo_quest000	1	note name	note0 long description	note 0 short description
+note001	arbo_miningcamp	arbo_quest000	1	note name	note1 long description	note 1 short description
+note002	arbo_miningcamp	arbo_quest000	1	note name	note2 long description	note 2 short description
+qaz_throwing_task_done	arbo_quest_assignment	arbo_quest000	0			
+qaz_done	arbo_quest_assignment	arbo_quest000	0			

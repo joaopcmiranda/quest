@@ -1,0 +1,14 @@
+ID	Name	Long_Descr	short_Descr	title	reminder	strength	agility	endurance	speed	intelligence	charm
+symbol	string	string	string	string	string	wtdRnd	wtdRnd	wtdRnd	wtdRnd	wtdRnd	wtdRnd
+noChalGlinch	no challenge Glinch		"OK, you got me.  What do you want to glinch for?"								
+chalBlindDodge	Blind Dodge Dazer	Blind Dodge Dazer requires highly sensitive reflexes and tremendous Speed.	Blind Dodge Dazer	Are your reflexes fast enough?	Just a reminder:  check your SPEED before you say yes to this challenge!				"1,20"		
+chalFreezeFak	Freeze Fak	Freeze Fak is all about staying as still as a Zoron statue for as long as possible.	Freeze Fak	Is your endurance up for it?	Don't forget: you'll need ENDURANCE for Freeze Fak!			"1,20"			
+chalCableClimb	Cable Climb	For Cable Climb you'll need strength and Power.	Cable Climb	Are you powerful enough?	Just a reminder:  check your POWER before you say yes to this challenge!	"1,20"					
+chalHadriuk	High Wire Hadriuk	High Wire Hadriuk is a test of balance and Agility.	High Wire Hadriuk	Can you balance on one foot?	Don't forget: this challenge is all about AGILITY!		"1,20"				
+chalSolash	Solash Siren Song	Solash Siren Song is a test to see who can sing a song to hypnotize the other.	Solash Siren Song	Can you hold a tune?	Remember:  you'll need CHARM for this challenge						"1,20"
+chalMonte	Marketplace Monte	Marketplace Monte  is a tricky card game for those with Brains.	Marketplace Monte	Can you count cards?	Remember: BRAINS is what you'll need to win this one!					"1,20"	
+chalPunkpie	Street Punkpie	"With Street Punkpie, it's a race to see who can eat  the most sewer slime in the least amount of time."	Street Punkpie	Are you sure you can eat that?	Just a reminder:  ENDURANCE and SPEED will help you win this one!			"1,20"	"1,20"		
+											
+											
+											
+											

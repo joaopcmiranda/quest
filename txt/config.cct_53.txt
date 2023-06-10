@@ -1,0 +1,8 @@
+speciesID	Name	Strength	Endurance	Speed	Agility	Intelligence	Charm	speciesDescr	armsDescr	legsDescr	speciesShortDescr	armsShortDescr	legsShortDescr
+symbol	string	atrb	atrb	atrb	atrb	atrb	atrb	string	string	string	string	string	string
+kekguard_A	Guard Ablock	45-5-5	45-5-10	45-5-5	45-20-10	45-0-0	45-10-10	Guard for Cell Block A	You need these to open the cells in A	 Guard A Legs	Guard A	Guard A	Guard A
+kekguard_B	Guard Bblock	45-5-5	45-5-10	45-5-5	45-20-10	45-0-0	45-10-10	Guard for Cell Block B	You need these to open the cells in B	 Guard B Legs	Guard A	Guard A	Guard A
+kekguard_C	Guard Cblock	45-5-5	45-5-10	45-5-5	45-20-10	45-0-0	45-10-10	Guard for Cell Block C	You need these to open the cells in C	 Guard C Legs	Guard A	Guard A	Guard A
+kekguard_D	Guard Dblock	45-5-5	45-5-10	45-5-5	45-20-10	45-0-0	45-10-10	Guard for Cell Block D	You need these to open the cells in D	 Guard D Legs	Guard A	Guard A	Guard A
+tager	Tager	45-45-45	45-45-45	45-45-45	45-45-45	45-45-45	45-45-45	"Tager, big man on campus"					
+gorm	Gorm	45-45-45	45-45-45	45-45-45	45-45-45	45-45-45	45-45-45	big fella					

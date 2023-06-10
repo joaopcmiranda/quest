@@ -1,0 +1,29 @@
+npcID	name	species	arms	legs	head	level	chWon	chLost	strength	agility	endurance	speed	intelligence	charm
+symbol	string	symbolList	symbolList	symbolList	symbolList	list	list	list	string	string	string	string	string	string
+npcDefault	Stranger	"#arbonian,#wexer,#vand,#gnashref, #aquart, #siktari, #urwhal, #amphibib, #vinic"	"#arbonian,#wexer,#vand,#gnashref,#dvpunkmale,#dvpunkfemale, #aquart, #siktari, #urwhal, #amphibib, #vinic"	"#arbonian,#wexer,#vand,#gnashref,#dvpunkmale,#dvpunkfemale, #aquart, #siktari, #urwhal, #amphibib, #vinic"	#none	1	0	0	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_wex	Wexer Stranger	#wexer	#wexer	#wexer	#none	1	1	1	+0	+0	+0	+0	+0	+0
+npc_yash	Yash-zar Stranger	#yashzar	#yashzar	#yashzar	#none	1	2	2	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_gnash	Gnashref Stranger	#gnashref	#gnashref	#gnashref	#none	1	3	3	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_vand	Vand Stranger	#vand	#vand	#vand	#none	1	4	4	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_arbo	Arbonian Stranger	#arbonian	#arbonian	#arbonian	#none	1	5	5	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_aquart	Aquart Stranger	#aquart	#aquart	#aquart	#none	1	20	45	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_siktari	Siktari Stranger	#siktari	#siktari	#siktari	#none	1	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_amphibib	Amphibib Stranger	#amphibib	#amphibib	#amphibib	#none	1	74	23	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_vinic	Vinic Stranger	#vinic	#vinic	#vinic	#none	1	33	54	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_urwhal	Urwhal Stranger	#urwhal	#urwhal	#urwhal	#none	1	63	78	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_adral	Adril 	#arbonian	#wexer	#arbonian	#none	1	65	23	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_ruc	Ruc the Qoro Champ	#arbonian	#arbonian	#urwhal	#none	1	42	12	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_jarekfriend	Jarek's Friend	#arbonian	#wexer	#wexer	#none	1	34	32	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_vildaassistant	Vilda's Assistant	#arbonian	#amphibib	#wexer	#none	1	65	12	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_arbochild	Arbonian Child	#arbonian	#arbonian	#arbonian	#none	1	34	3	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_corec	The Mapmaker's Son	#gnashref	#arbonian	#arbonian	#none	1	87	12	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_aquartprisoner	The Aquart's Prisoner	#arbonian	#arbonian	#arbonian	#none	1	23	23	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_aquartguard	Aquart Guard	#aquart	#aquart	#aquart	#none	1	43	34	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_yashlumberjack	Yash-zar Tunneler	#gnashref	#arbonian	#arbonian	#none	1	54	54	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_artisoidslave	Artisoid Slave	"#arbonian,#wexer,#vand,#gnashref"	"#arbonian,#wexer,#vand,#gnashref"	"#arbonian,#wexer,#vand,#gnashref"	#none	1	23	54	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_zoronguard	Zoron Guard	#zoron	#zoron	#zoron	#none	2	54	12	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+char_qazPractice	Practice Opponent	#arbonian	#arbonian	#arbonian	#none	1	1	1	-20	+0	+0	+0	+0	+0
+char_taskMistress	Quest Master	#wexer	#wexer	#wexer	#none	8	3500	3	+0	+0	+0	+0	+0	+0
+npc_merchant	Toby McGuire	#dv_merchant	#dv_merchant	#dv_merchant	"#dv_merchant1, #dv_merchant2, #dv_merchant3"	1	1	1	+0	+0	+0	+0	+0	+0
+npc_siktari1	Siktari Stranger	#siktari	#siktari	#siktari	#siktari1	1	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_siktari1	Siktari Stranger	#siktari	#siktari	#siktari	#siktari2	1	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"

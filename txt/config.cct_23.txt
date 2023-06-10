@@ -1,0 +1,34 @@
+npcID	name	species	arms	legs	head	level	chWon	chLost	strength	agility	endurance	speed	intelligence	charm
+symbol	string	symbolList	symbolList	symbolList	symbolList	list	list	list	string	string	string	string	string	string
+npc_merchant_rand	Dreejal Vin Merchant	#dvmerchant	#none	#none	"#dvmerchant1, #dvmerchant2, #dvmerchant3"	2	1	1	+0	+0	+0	+0	+0	+0
+npc_merchant1	Dreejal Vin Merchant	#dvmerchant	#none	#none	#dvmerchant1	2	1	1	+0	+0	+0	+0	+0	+0
+npc_merchant2	Dreejal Vin Merchant	#dvmerchant	#none	#none	#dvmerchant2	2	1	1	+0	+0	+0	+0	+0	+0
+npc_merchant3	Dreejal Vin Merchant	#dvmerchant	#none	#none	#dvmerchant3	2	1	1	+0	+0	+0	+0	+0	+0
+npc_siktari1	Super Siktari Stranger	#siktari_one	#siktari	#siktari	#none	6	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_amphibib1	Super Amphibib Stranger	#amphibib_one	#amphibib	#amphibib	#none	6	24	43	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_vinic1	Super Vinic Stranger	#vinic_one	#vinic	#vinic	#none	6	33	54	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_urwhal1	Super Urwhal Stranger	#urwhal_one	#urwhal	#urwhal	#none	6	63	78	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"	"+3,3"
+npc_wex1	Super Wexer Stranger	#wexer_one	#wexer	#wexer	#none	6	1	1	+0	+0	+0	+0	+0	+0
+npc_ooni	Ooni	#dvooni	#dvooni	#dvooni	#none	3	1	1	+0	+0	+0	+0	+0	+0
+npc_abdwarf	Rokush	#dvabdwarf	#none	#none	#none	3	1	1	+0	+0	+0	+0	+0	+0
+npc_punkmale	Geo the Street Punk	#dvpunkmale	#dvpunkmale	#dvpunkmale	"#dvpunkmale1, #dvpunkmale2, #dvpunkmale3"	3	1	1	+0	+0	+0	+0	+0	+0
+npc_punkmale1	Naakin the Street Punk	#dvpunkmale	#dvpunkmale	#dvpunkmale	#dvpunkmale1	3	1	1	+0	+0	+0	+0	+0	+0
+npc_punkmale2	Kule the Street Punk	#dvpunkmale	#dvpunkmale	#dvpunkmale	#dvpunkmale2	3	1	1	+0	+0	+0	+0	+0	+0
+npc_punkmale3	Skylar the Street Punk	#dvpunkmale	#dvpunkmale	#dvpunkmale	#dvpunkmale3	3	1	1	+0	+0	+0	+0	+0	+0
+npc_punkfemale1	Leeya the Street Punk	#dvpunkfemale	#dvpunkfemale	#dvpunkfemale	#dvpunkfemale1	3	1	1	+0	+0	+0	+0	+0	+0
+npc_punkfemale2	Tamza the Street Punk	#dvpunkfemale	#dvpunkfemale	#dvpunkfemale	#dvpunkfemale2	3	1	1	+0	+0	+0	+0	+0	+0
+npc_punkfemale3	Aknya the Street Punk	#dvpunkfemale	#dvpunkfemale	#dvpunkfemale	#dvpunkfemale2	3	1	1	+0	+0	+0	+0	+0	+0
+npc_biker1	Grim	#dvpunkmale	#dvpunkmale	#dvpunkmale	#dvpunkmale1	3	1	1	+0	+0	+0	+0	+0	+0
+npc_biker2	Cecil	#dvpunkmale	#dvpunkmale	#dvpunkmale	#dvpunkmale1	3	1	1	+0	+0	+0	+0	+0	+0
+npc_biker3	Boris	#dvpunkmale	#dvpunkmale	#dvpunkmale	#dvpunkmale2	4	1	1	+0	+0	+0	+0	+0	+0
+npc_hunter1	Fatty	#dvhunter_one	#dvhunter_one	#dvhunter_one	#none	5	1	1	+0	+0	+0	+0	+0	+0
+npc_hunter2	Slim	#dvhunter_two	#dvhunter_two	#dvhunter_two	#none	5	1	1	+0	+0	+0	+0	+0	+0
+npc_scientist	IT Researcher	#dvscientist	#none	#none	#none	3	1	1	+0	+0	+0	+0	+0	+0
+npc_potionman	Master Scientist	#dvscientist	#none	#none	#none	3	1	1	+0	+0	+0	+0	+0	+0
+npc_redguard	Red Guard	#dvredguard	#none	#none	#none	3	1	1	+0	+0	+0	+0	+0	+0
+npc_delegator1	Jr. Delegator Spungo-ki	#dvjrdelegator	#none	#none	#dvjrdelegator1	4	1	1	+0	+0	+0	+0	+0	+0
+npc_delegator2	Jr. Delegator Senjeve	#dvjrdelegator	#none	#none	#dvjrdelegator2	4	1	1	+0	+0	+0	+0	+0	+0
+npc_delegator2	Jr. Delegator Remmurts	#dvjrdelegator	#none	#none	#dvjrdelegator3	4	1	1	+0	+0	+0	+0	+0	+0
+npc_dvcitizen1	Citizen Thegaeda	#dvcitizen	#none	#none	#dvcitizen1	3	1	1	+0	+0	+0	+0	+0	+0
+npc_dvcitizen2	Citizen Nettojo	#dvcitizen	#none	#none	#dvcitizen2	3	1	1	+0	+0	+0	+0	+0	+0
+npc_dvcitizen3	Citizen Sidma	#dvcitizen	#none	#none	#dvcitizen3	3	1	1	+0	+0	+0	+0	+0	+0

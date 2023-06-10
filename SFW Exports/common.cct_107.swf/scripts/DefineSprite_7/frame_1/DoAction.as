@@ -1,0 +1,11 @@
+setProperty("wexer", _visible, "0");
+setProperty("yashzar", _visible, "0");
+setProperty("urwhal", _visible, "0");
+setProperty("arbonian", _visible, "0");
+setProperty("gnashref", _visible, "0");
+setProperty("aquart", _visible, "0");
+setProperty("amphibib", _visible, "0");
+setProperty("vand", _visible, "0");
+setProperty("siktari", _visible, "0");
+setProperty("vinic", _visible, "0");
+setProperty("zoron", _visible, "0");

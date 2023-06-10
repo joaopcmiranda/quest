@@ -1,0 +1,13 @@
+itemID	resourceID	Name	long_descr	short_Descr	hint	strength	agility	endurance	speed	intelligence	charm	bonus_time	equip
+symbol	symbol	string	string	string	string	list	list	list	list	list	list	num	boolean
+es_disintegrator	common_es_charInventory_item_disintegrator	Ice Orb Powerizer	"Ice Orb Powerizer. As long as this is powered up with Qorium, you'll be able to make powerful Ice Orbs instead of ordinary snowballs. See Tyreena to charge it back up. "		charges: #								
+ice_orb_generator	none	Ice Orb Powerizer	not displayed in inventory	not in inv									1
+crystal1	common_es_charInventory_item_shard	Charnum Crystal Shard 1	This is one of the 5 pieces you'll need to repair the Charnum Crystal that powers the portal to Kek. 										
+crystal2	common_es_charInventory_item_shard	Charnum Crystal Shard 2	This is one of the 5 pieces you'll need to repair the Charnum Crystal that powers the portal to Kek. 										
+crystal3	common_es_charInventory_item_shard	Charnum Crystal Shard 3	This is one of the 5 pieces you'll need to repair the Charnum Crystal that powers the portal to Kek. 										
+crystal4	common_es_charInventory_item_shard	Charnum Crystal Shard 4	This is one of the 5 pieces you'll need to repair the Charnum Crystal that powers the portal to Kek. 										
+crystal5	common_es_charInventory_item_shard	Charnum Crystal Shard 5	This is one of the 5 pieces you'll need to repair the Charnum Crystal that powers the portal to Kek. 										
+dvhunter_one_arms	none		not displayed in inventory	not in inv									
+dvhunter_two_arms	none		not displayed in inventory	not in inv									
+eshunter_three_arms	none		not displayed in inventory	not in inv									
+es_release_marker	none		"not displayed in inventory, used to mark players to determine if they played Elta Siktaar before it was ready"	not in inv									
