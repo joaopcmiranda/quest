@@ -1,4 +1,5 @@
-import { getGameWidth, getGameHeight } from '../helpers';
+import { canvas, setCanvas } from '../utils/GameCanvas';
+import { regions } from '../regions/regions';
 
 const sceneConfig: Phaser.Types.Scenes.SettingsConfig = {
   active: false,
@@ -15,8 +16,9 @@ export class BootScene extends Phaser.Scene {
   }
 
   public preload(): void {
-    const halfWidth = getGameWidth(this) * 0.5;
-    const halfHeight = getGameHeight(this) * 0.5;
+    setCanvas(this.game.canvas);
+    const halfWidth = canvas.width * 0.5;
+    const halfHeight = canvas.height * 0.5;
 
     const progressBarHeight = 100;
     const progressBarWidth = 400;
@@ -70,9 +72,18 @@ export class BootScene extends Phaser.Scene {
    * is currently active, so they can be accessed anywhere.
    */
   private loadAssets() {
-    // Load sample assets
-
-    // Source: Open Game Art
     this.load.image('man', 'assets/sprites/character.png');
+
+    // Regions
+    for (let [, region] of Object.entries(regions)) {
+      for (let [, area] of Object.entries(region.areas)) {
+        this.load.image(`${region.key}/${area.key}/map`, `assets/${region.key}/${area.key}/map.png`);
+        this.load.binary({
+          key: `${region.key}/${area.key}/height_map`,
+          url: `assets/${region.key}/${area.key}/height_map.pgm`,
+          dataType: Uint8Array
+        });
+      }
+    }
   }
 }

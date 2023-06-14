@@ -7,8 +7,8 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
 
   scale: {
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: 770,
+    height: 440,
   },
 
   scene: Scenes,
@@ -25,7 +25,3 @@ const gameConfig: Phaser.Types.Core.GameConfig = {
 };
 
 export const game = new Phaser.Game(gameConfig);
-
-window.addEventListener('resize', () => {
-  game.scale.refresh();
-});
